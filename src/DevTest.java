@@ -12,9 +12,10 @@ public class DevTest
         double salary = 0.0;
         int favNum = 0;
         boolean question = false;
-        String repeat = "";
+        String SSN = "";
 
 
+       /*
         firstName = getNonZeroLenString(tester, "Enter your first name");
         System.out.println("Name is : " + firstName);
 
@@ -36,8 +37,10 @@ public class DevTest
         question = getYNConfirm(tester, "Would you like to continue?");
         System.out.println("Your answer is " + question);
 
-        repeat = getRegExString(tester, "What string should be repeated?", "here");
-        System.out.println("Your answer is " + repeat);
+        SSN = getRegExString(tester, "What is you SSN?", "^\\d{3}-\\d{2}-\\d{4}$");
+        System.out.println("Your answer is " + SSN);
+
+         */
     }
 
 
